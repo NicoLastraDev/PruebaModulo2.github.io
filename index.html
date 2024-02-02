@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Prueba Modulo 2</title>
+</head>
+<body style="background-color: black;">
+  <div class="container-fluid" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand img" href="#"><img src="assets/img/viajes.svg" alt="">Viajes Chile</a>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccionQuienesSomos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactanos">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- div del carrusel -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner align-items-center">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+    <!-- seccion de ¿Quienes somos? -->
+    <section class="container text-center py-5" id="seccionQuienesSomos">
+      <p class="mb-5 fs-1">¿Quienes somos?</p>
+      <hr>
+      <div class="row justify-content-center justify-content-md-around m-3">
+          <div class="col-10 col-sm-10 col-md-3 mb-5 mb-md-0 m-2">
+            <p style="background-color: #05D6EF; height: 40px;"><img src="assets/img/aviones.png" height="40px"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo optio. Minus, cumque id, libero facilis rerum aspernatur harum odio mollitia, modi delectus repellendus debitis consequatur qui reiciendis voluptates fugit.</p>
+          </div>
+          <div class="col-10 col-sm-10 col-md-3 mb-5 mb-md-2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eveniet blanditiis, sapiente vel ut amet vero magni molestias ducimus inventore nam veritatis perspiciatis dolorem ad quo doloribus numquam nostrum molestiae.</p>
+              <p style="background-color: #05D6EF; height: 40px;"><img src="assets/img/tsunami.png" height="40px"></p>
+          </div>
+          <div class="col-10 col-sm-10 col-md-3 mb-5 mb-md-2">
+            <p style="background-color: #05D6EF; height: 40px;"><img src="assets/img/serpiente.png" height="40px"></p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima aut, placeat alias unde quidem distinctio, provident illo ipsa dolorem quae neque explicabo, aliquam earum voluptatum ipsam tenetur error nisi eaque.</p>
+          </div>
+      </div>
+  </section>
+  <hr>
+
+  <!--Seccion de Destacados-->
+
+</section>
+<section class="py-5 m-0" id="destacados">
+    <div class="container">
+        <h2 class="text-center text-white fw-bold fs-1 mb-5">Destacados</h2>
+        <div class="row justify-content-around">
+            <div class="card col-10 col-sm-10 col-md-3 p-0">
+                <img src="assets/img/card1.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil maiores totam doloribus aliquid dicta, deleniti saepe quam sequi harum recusandae eius ducimus perspiciatis, autem dignissimos laboriosam nostrum optio! Quae, ratione!</p>
+                    <a href="#" class="btn btn-outline-info text-info">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-10 col-sm-10 col-md-3 p-0">
+                <img src="assets/img/card2.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem pariatur esse mollitia voluptate, cumque at provident nobis nulla exercitationem doloremque laborum quas soluta et eos deserunt magni vitae ipsum nisi.</p>
+                    <a href="#" class="btn btn-outline-info text-info">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-10 col-sm-10 col-md-3 p-0">
+                <img src="assets/img/card3.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In eius tempora exercitationem aperiam recusandae reiciendis suscipit, sapiente quo illum omnis facilis libero rerum error nisi nesciunt voluptate blanditiis qui consequuntur!</p>
+                    <a href="#" class="btn btn-outline-info text-info">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-10 col-sm-10 col-md-3 p-0">
+              <img src="assets/img/card4.jpg" class="card-img-top h-50" alt="...">
+              <div class="card-body">
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, non quas modi ducimus quo rerum ipsum cum praesentium provident corrupti facilis dolores aspernatur inventore quae ratione adipisci voluptatibus officia tempore!</p>
+                  <a href="#" class="btn btn-outline-info text-info">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!--Formulario de contacto-->
+<section id="contactanos">
+  <div class="container">
+    <h2 class="text-center text-white fw-bold fs-1 mb-5">Contacto</h2>
+      <form action="" onclick="formulario()">
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input class="form-control" type="text" aria-label="default input example">
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="text-end">
+            <button type="button" class="btn btn-secondary"
+            data-bs-toggle="popover" data-bs-placement="right"
+            data-bs-custom-class="custom-popover"
+            data-bs-title="clieckeame para enviar tu solicitud"
+            data-bs-content="UwU"
+            id="enviar">Enviar</button>
+          </div>
+      </form>
+  </div>
+</section>
+  </div>
+
+  <!--Footer-->
+<div class="container-fluid d-inline">
+  <footer class="footer m-0">
+    <div class="container m-0">
+      <p>Viajes Chile</p>
+      <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-github-alt fa-5x"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-5x"></i></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-5x"></i></a>
+  </footer> 
+</div>
+
+<script src="https://kit.fontawesome.com/c194e7b6b0.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="assets/javascript/jscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+  color: white;
+}
+
+nav{
+  background-color: #05D6EF;
+  color: white;
+}
+
+#navbarNav{
+  position: absolute;
+  left: 73%;
+}
+
+.carousel-item img{
+  height: 50em;
+}
+
+p{
+  color: white;
+}
+
+.card-body{
+  background-color: #05D6EF;
+}
+
+h2{
+  color: white;
+}
+label{
+  color: white;
+}
+.navbar-brand img{
+  width: 30px;
+  margin: 0;
+}
+
+.footer {
+  text-align: left;
+  background-color: #17A2B8;
+  color: #ffffff;
+  padding: 0;
+  display: inline block;
+  height: fit-content;
+  align-content: center;
+}
+
+footer p{
+  text-align: center;
+  background-color: #17A2B8;
+  color: #ffffff;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  font-size: 25px;
+  padding-left: 20%;
+  padding-right: 0;
+  margin: 0;
+}
+
+.footer a{
+  margin: 0;
+  position: relative;
+  left: 70%;
+  height: 1em;
+  width: 2em;
+  margin: 20px;
+  color: white;
+}
+
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bd-violet-bg);
+  --bs-popover-header-bg: var(--bd-violet-bg);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
